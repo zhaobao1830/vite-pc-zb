@@ -1,0 +1,9 @@
+.el-message {
+  .el-message-icon--info {
+    display: none !important;
+  }
+  .el-message__content{
+    font-size: 32px !important;
+    font-weight: bold;
+  }
+}
