@@ -51,7 +51,8 @@ export default defineConfig({
     host: '0.0.0.0',
     proxy: {
       '/api': {
-        target: 'http://192.168.1.210:30001/hiscall/ipController',
+        target: 'http://192.168.1.55:8082/hiscall/ipController',
+        // target: 'http://192.168.1.210:30001/hiscall/ipController',
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/api/, ''),
       }
